@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import onboarding from '../mockups/harbor-church-01-onboarding.png'
-import homeCalendar from '../mockups/harbor-church-02-home-calendar.png'
-import communityLive from '../mockups/harbor-church-03-community-live.png'
-import profileAdmin from '../mockups/harbor-church-04-profile-admin.png'
+import onboarding from '../mockups/dunamis-01-onboarding.png'
+import homeCalendar from '../mockups/dunamis-02-home-calendar.png'
+import communityLive from '../mockups/dunamis-03-community-live.png'
+import profileAdmin from '../mockups/dunamis-04-profile-admin.png'
 
 const boards = [onboarding, homeCalendar, communityLive, profileAdmin]
 const screenCenters = [
@@ -81,7 +81,7 @@ export default function App() {
       <main
         ref={carouselRef}
         className="carousel"
-        aria-label="Harbor Church mobile app mockups"
+        aria-label="Dunamis mobile app mockups"
         tabIndex="0"
         onPointerDown={startDrag}
         onPointerMove={moveDrag}
@@ -93,7 +93,7 @@ export default function App() {
             <div className="image-frame">
               <img
                 src={src}
-                alt={`Harbor Church mobile app mockup ${index + 1}`}
+                alt={`Dunamis mobile app mockup ${index + 1}`}
                 draggable="false"
                 style={{ transform: `translate(-${center}%, -50%)` }}
               />
