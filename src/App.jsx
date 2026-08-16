@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
-import onboarding from '../mockups/dunamis-01-onboarding.png'
-import homeCalendar from '../mockups/dunamis-02-home-calendar.png'
-import communityLive from '../mockups/dunamis-03-community-live.png'
+import onboarding from '../mockups/dunamis-logo-01-onboarding.png'
+import homeCalendar from '../mockups/dunamis-logo-02-home-calendar.png'
+import communityLive from '../mockups/dunamis-logo-03-community-live.png'
 import profileAdmin from '../mockups/dunamis-04-profile-admin.png'
 
 const boards = [onboarding, homeCalendar, communityLive, profileAdmin]
