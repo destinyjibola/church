@@ -93,7 +93,7 @@ body {
   bottom: max(10px, env(safe-area-inset-bottom));
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
   padding: 9px 12px;
   border: 1px solid rgb(255 255 255 / 12%);
   border-radius: 999px;
@@ -103,7 +103,7 @@ body {
 }
 
 .indicator {
-  width: 7px;
+  width: 5px;
   height: 3px;
   margin: 0;
   padding: 0;
@@ -115,7 +115,7 @@ body {
 }
 
 .indicator.active {
-  width: 20px;
+  width: 16px;
   background: #c7a45a;
 }
 

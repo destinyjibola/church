@@ -3,13 +3,17 @@ import onboarding from '../mockups/dunamis-logo-01-onboarding.png'
 import homeCalendar from '../mockups/dunamis-logo-02-home-calendar.png'
 import communityLive from '../mockups/dunamis-logo-03-community-live.png'
 import profileAdmin from '../mockups/dunamis-04-profile-admin.png'
+import videoMember from '../mockups/dunamis-05-video-member.png'
+import videoAdmin from '../mockups/dunamis-06-video-admin.png'
 
-const boards = [onboarding, homeCalendar, communityLive, profileAdmin]
+const boards = [onboarding, homeCalendar, communityLive, profileAdmin, videoMember, videoAdmin]
 const screenCenters = [
   [13.67, 37.81, 61.69, 85.71],
   [13.34, 37.76, 61.62, 85.61],
   [13.2, 37.57, 61.66, 85.95],
   [13.22, 37.57, 61.65, 86.0],
+  [13.02, 37.16, 61.48, 85.8],
+  [13.2, 37.34, 61.48, 85.74],
 ]
 const slides = boards.flatMap((src, board) =>
   screenCenters[board].map((center) => ({ src, center })),
